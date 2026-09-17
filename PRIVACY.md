@@ -1,14 +1,12 @@
 # Privacy notice
 
-The authoritative copy of this notice is the one inside the application
-(**Rudrabha Mukherjee's Design Helper**, version **3.9.0**). This file is provided so the
-notice can be read on GitHub without opening the app.
+The authoritative copy of this notice is the one inside the application (version 3.10.0). This file reproduces it so it can be read on GitHub without opening the app.
 
 ---
 
 PRIVACY NOTICE
 
-App: Rudrabha Mukherjee's Design Helper, version 3.9.0
+App: Rudrabha Mukherjee's Design Helper, version 3.10.0
 Created by Rudrabha Mukherjee
 
 SHORT VERSION
@@ -26,10 +24,15 @@ including the person who made this app, and including whoever hosts the
 address you opened it from. It is never uploaded.
 
 NETWORK
-Once it is open, this app makes no connections to the internet at all. It
-sends nothing and fetches nothing. You can switch off your data and it
-keeps working. You can check this yourself: turn off your internet and use
-the app normally.
+Once it is open, this app sends none of your work anywhere, and fetches
+nothing to display itself. The one exception is the version check: when
+you open the app, it asks the address it came from whether a newer version
+exists, and your browser separately makes the same kind of check on its
+own. That request carries no information about you or your work beyond what
+any web page request carries — your internet address and the time, which
+the company hosting the address records. Nothing you have written is ever
+part of it. You can switch the check off in Settings, and if you saved the
+app as a file and opened the file, no check happens at all.
 
 HOW YOU GOT THIS APP
 If somebody gave you this app as a file, nothing about you reached anybody
@@ -70,6 +73,6 @@ Open Settings and press "Empty this app and start again". Clearing your
 browser data also removes it. There is no copy anywhere else to delete.
 
 CHANGES
-This notice describes this version of the app. Because the app has no
-server, an older copy you already have can never start collecting data
-later.
+This notice describes this version of the app. A file copy you already have
+on your own device will keep behaving as that older copy did until you open
+a newer file.

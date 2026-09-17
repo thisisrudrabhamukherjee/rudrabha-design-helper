@@ -7,7 +7,7 @@ Thank you for considering a contribution to Rudrabha Mukherjee's Design Helper.
 The application is a **single HTML file** with no build step, no package manager and no framework. It must stay that way.
 
 - Do not add a bundler, `package.json`, CDN links, web fonts, icon sets, analytics or any other external resource.
-- Every change must keep the app working offline with **zero network requests** once the page is open.
+- Every change must keep the app working offline after load. A hosted copy may check its own origin for a newer version unless the reader switches that off; a file opened from disk must make no network request of its own.
 - The automated test suite in `docs/COMPLETE-SOURCE-v3.9.0.txt` must pass after any change to the application.
 - Write in **British English**: organise, recognise, colour, behaviour, licence (noun), license (verb).
 - Keep the reading level plain: short sentences, common words, written for readers with basic English.

@@ -30,8 +30,11 @@ At minimum:
 - Correctness of key handling
 - Any way to read locked work without the PIN or the recovery answer
 - Any script injection from an opened file
-- Anything causing Rudrabha Mukherjee's Design Helper to make a network request after it has loaded
+- Anything causing Rudrabha Mukherjee's Design Helper to make a network request after it has loaded, other than the disclosed version check to its own origin
 - Anything that writes readable work to disk when the lock is on
+- Anything that lets the service worker serve content from another origin
+- Anything that poisons the cache so a reader is served something other than the published file
+- Anything that keeps a reader pinned on an old version after they have accepted an update
 
 ## Out of scope — documented design properties, not vulnerabilities
 
@@ -41,5 +44,6 @@ At minimum:
 - Work that the reader exported to a file while the lock was off — that file is deliberately readable, and the app warns about it
 - Anything requiring the reader to paste their own work into a third-party AI assistant
 - Browser or operating system vulnerabilities
+- The update check itself revealing the reader's internet address to the host, which is inherent to loading any web page and is disclosed in the privacy notice
 
 This policy does not claim that the application is free of vulnerabilities, unbreakable, fully secure, or audited.

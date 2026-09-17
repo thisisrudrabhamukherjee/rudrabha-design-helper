@@ -9,6 +9,10 @@ THIRD-PARTY CODE: NONE
 
 This application contains no third-party code. There are no libraries, frameworks, web fonts, icon sets, images or code from anyone else. There are therefore no other licences to obey and no other notices to carry.
 
+ICONS
+
+The icons in the icons/ folder are original artwork by Rudrabha Mukherjee, drawn for this application and covered by the same BSD 3-Clause licence. They are not taken from any platform, glyph set or template.
+
 FONTS
 
 The app ships no font files and loads none. It names families in CSS (ui-sans-serif, -apple-system, Segoe UI, Roboto, Noto Sans, Helvetica Neue, Arial, and monospace equivalents) so the browser uses a font already installed on the reader's own device. Naming a family is not distribution, so no font licence applies.

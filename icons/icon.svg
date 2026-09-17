@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Rudrabha Mukherjee's Design Helper">
+  <rect width="512" height="512" rx="96" fill="#EDEFF2"/>
+  <rect x="40" y="40" width="432" height="432" rx="88" fill="#0F4F35"/>
+  <rect x="148" y="120" width="176" height="240" rx="18" fill="#FFFFFF"/>
+  <line x1="180" y1="188" x2="292" y2="188" stroke="#0F4F35" stroke-width="14" stroke-linecap="round"/>
+  <line x1="180" y1="228" x2="292" y2="228" stroke="#0F4F35" stroke-width="14" stroke-linecap="round"/>
+  <line x1="180" y1="268" x2="292" y2="268" stroke="#0F4F35" stroke-width="14" stroke-linecap="round"/>
+  <line x1="180" y1="308" x2="248" y2="308" stroke="#0F4F35" stroke-width="14" stroke-linecap="round"/>
+  <line x1="268" y1="300" x2="360" y2="168" stroke="#EDEFF2" stroke-width="22" stroke-linecap="round"/>
+  <polygon points="360,168 382,178 354,198" fill="#EDEFF2"/>
+</svg>

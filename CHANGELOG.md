@@ -1,12 +1,26 @@
 # Changelog
 
-All notable changes to Rudrabha Mukherjee's Design Helper are recorded here.
-The release history is taken from the application's own "What has changed" screen.
+All notable changes to Rudrabha Mukherjee's Design Helper are documented here.
+Taken from the application's own "What has changed" screen.
 
-Versions follow [Semantic Versioning](https://semver.org/).
-This file uses [Keep a Changelog](https://keepachangelog.com/) section headings.
+The format is based on [Keep a Changelog](https://keepachangelog.com/),
+and this project follows [Semantic Versioning](https://semver.org/).
 
-## [3.9.0] — 2026-09-16
+## [3.10.0] — 17 September 2026
+
+### Added
+
+- You can now install this app on your phone, tablet or computer, so it sits with your other apps and opens without a browser window. Open it in your browser and choose to install it; on an iPhone or iPad, use Share, then Add to Home Screen.
+- Once installed, it opens and works with no internet at all.
+- When a newer version exists, the app tells you and asks whether to take it. Your work is never affected, and nothing changes until you press the button.
+- A new setting to check for a new version yourself, and to switch off the automatic check altogether.
+
+### Changed
+
+- The app used to make no connection to the internet at all once it was open. It now asks the address it came from whether a newer version exists, unless you switch that off in Settings. Nothing you have written is ever part of that request. The privacy notice explains what is and is not sent.
+- The security rules for the hosted page now allow its own icons, its install file and its update worker. The app still never opens a network connection of its own to send your work.
+
+## [3.9.0] — 16 September 2026
 
 ### Added
 
@@ -19,7 +33,7 @@ This file uses [Keep a Changelog](https://keepachangelog.com/) section headings.
 
 - If your lock is on, your work stays scrambled the whole way across, and you open it with the same PIN at the other end. Nothing readable is written to disk.
 
-## [3.8.0] — 2026-09-16
+## [3.8.0] — 16 September 2026
 
 ### Removed
 
@@ -31,7 +45,7 @@ This file uses [Keep a Changelog](https://keepachangelog.com/) section headings.
 - The name at the top is left blank until you name your app, instead of reading "no name yet".
 - The picture on the Lock screen showed a code on paper, which the lock no longer uses. It now shows your question.
 
-## [3.7.0] — 2026-09-16
+## [3.7.0] — 16 September 2026
 
 ### Changed
 
@@ -40,7 +54,7 @@ This file uses [Keep a Changelog](https://keepachangelog.com/) section headings.
 - Your answer is checked more slowly than a PIN on purpose, which makes guessing it dearer.
 - Work locked by an earlier version still opens with its printed code, and you can swap that code for a question at any time.
 
-## [3.6.0] — 2026-09-16
+## [3.6.0] — 16 September 2026
 
 ### Changed
 
@@ -57,69 +71,66 @@ This file uses [Keep a Changelog](https://keepachangelog.com/) section headings.
 - On the Daylight and Strong contrast screens, the tick on the step you were standing on could not be seen against the circle behind it.
 - With a keyboard, the Tab key could leave an open question box and Escape then stopped working. The keyboard now stays inside, and returns to the button that opened it.
 
-## [3.5.0] — 2026-09-16
+## [3.5.0] — 16 September 2026
 
 ### Fixed
 
 - Corrected migration of publisher and licence metadata from earlier versions.
 
-## [3.4.0] — 2026-09-16
+## [3.4.0] — 16 September 2026
 
 ### Added
 
-- The full communication notice, which can be read again or saved as a file at any time.
+- Added the full communication notice, which can be read again or saved as a file at any time.
 
-## [3.3.0] — 2026-09-16
-
-### Added
-
-- Consistent creator attribution and complete release information.
-
-## [3.2.0] — 2026-09-16
+## [3.3.0] — 16 September 2026
 
 ### Added
 
-- The Contact and Notices pages, covering how to write in and what the app does and does not promise.
-- A new Acceptable use document, saved and shared alongside the others.
-- Links to Privacy, Licence, Notices and Contact at the bottom of every screen.
+- Added consistent creator attribution and complete release information.
 
-## [3.1.0] — 2026-09-16
+## [3.2.0] — 16 September 2026
+
+### Added
+
+- Added the Contact and Notices pages, covering how to write in and what the app does and does not promise.
+- Added a new Acceptable use document, saved and shared alongside the others.
+- Added links to Privacy, Licence, Notices and Contact at the bottom of every screen.
+
+## [3.1.0] — 16 September 2026
 
 ### Fixed
 
-- An Undo button that could appear when there was nothing to undo.
+- Fixed an Undo button that could appear when there was nothing to undo.
 
 ### Changed
 
 - Settings became a simple menu, with long pages split into shorter ones.
 - Screen settings split into colours, text size and brightness.
 
-## [3.0.0] — 2026-09-16
+## [3.0.0] — 16 September 2026
 
 ### Added
 
-- A new step for your own brand: your colours, letters and feel, carried into every later step.
-- A lock that scrambles your work on this device, with a second way in if the PIN is forgotten.
-- Four ways to view the screen and a brightness control.
-- The Licence and Privacy pages, with the full documents.
+- Added a new step for your own brand: your colours, letters and feel, carried into every later step.
+- Added a lock that scrambles your work on this device, with a second way in if the PIN is forgotten.
+- Added four ways to view the screen and a brightness control.
+- Added the Licence and Privacy pages, with the full documents.
 
 ### Changed
 
 - Simpler wording throughout, in British English.
 
-## [2.0.0] — 2026-09-16
+## [2.0.0] — 16 September 2026
 
 ### Added
 
-- Pictures to the How to use screen, drawn by the app itself.
-- Share buttons to every step, and the ability to pass the app on as a single file.
-- Delete buttons where they were needed, each one asking first.
-
-### Changed
-
+- Added pictures to the How to use screen, drawn by the app itself.
+- Added share buttons to every step, and the ability to pass the app on as a single file.
+- Added delete buttons where they were needed, each one asking first.
 - Message wording can now be changed, or replaced from a file.
 
-## [1.0.0] — 2026-09-16
+## [1.0.0] — 16 September 2026
 
 ### Added
 

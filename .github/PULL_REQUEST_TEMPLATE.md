@@ -7,7 +7,7 @@
 <!-- Required if the application file changed. Name the checks you ran. -->
 
 - [ ] Application file unchanged, or automated checks named below were run
-- [ ] Still works offline with zero network requests after load
+- [ ] Still works offline after load; hosted version check (if any) disclosed and switchable; file:// copy makes no network request of its own
 - [ ] Accessibility floor kept (44 px targets, 18 px base text, 4.5:1 contrast, no horizontal scrolling from 320 px)
 
 ## Sibling application
