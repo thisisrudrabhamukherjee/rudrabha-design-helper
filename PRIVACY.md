@@ -1,12 +1,12 @@
 # Privacy notice
 
-The authoritative copy of this notice is the one inside the application (version 3.10.2). This file reproduces it so it can be read on GitHub without opening the app.
+The authoritative copy of this notice is the one inside the application (version 3.11.0). This file reproduces it so it can be read on GitHub without opening the app.
 
 ---
 
 PRIVACY NOTICE
 
-App: Rudrabha Mukherjee's Design Helper, version 3.10.2
+App: Rudrabha Mukherjee's Design Helper, version 3.11.0
 Created by Rudrabha Mukherjee
 
 SHORT VERSION

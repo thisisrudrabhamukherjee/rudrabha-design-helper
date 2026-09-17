@@ -7,6 +7,8 @@ AGENTS.md
 CLAUDE.md
 .cursorrules
 .github/copilot-instructions.md
+.antigravity/
+.windsurf/
 .DS_Store
 Thumbs.db
 *.log
