@@ -6,6 +6,23 @@ Taken from the application's own "What has changed" screen.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project follows [Semantic Versioning](https://semver.org/).
 
+## [3.12.0] — 18 September 2026
+
+### Fixed
+
+- The top bar has been rebuilt with a clean 3-column layout so the full application name never overlaps navigation buttons or wraps unexpectedly.
+- The "Saved" indicator is now a discreet floating message near the bottom of the screen, keeping the top bar clear.
+- Reliable offline updates: the background update worker checks quietly without freezing or failing when offline.
+- Added a "Forgot PIN?" recovery link on the lock screen that guides directly to the security question recovery section.
+
+### Added
+
+- A 5-step text size slider with live resizing from extra small to extra large.
+- Explicit "Save" button to give immediate confirmation that your work is stored safely.
+- A floating "Back to top" button that appears smoothly on long screens.
+- In-app install guidance and home screen install banner.
+- Collapsible sections for legal documents and detailed explanations.
+
 ## [3.11.0] — 17 September 2026
 
 ### Changed

@@ -1,5 +1,5 @@
 /* Service worker for this application. Cache name carries the version. */
-var CACHE = "rmdh-3.11.0";
+var CACHE = "rmdh-3.12.0";
 var PRECACHE = [
   "/",
   "/manifest.webmanifest",
@@ -39,9 +39,27 @@ self.addEventListener("fetch", function (event) {
   if (req.mode === "navigate") {
     event.respondWith(
       caches.match("/").then(function (cached) {
-        return cached || fetch(req);
+        if (cached) return cached;
+        return fetch(req).then(function (res) {
+          if (res && res.status === 200) {
+            var copy = res.clone();
+            caches.open(CACHE).then(function (cache) { cache.put("/", copy); });
+          }
+          return res;
+        }).catch(function () {
+          return caches.match("/").then(function (anyCached) {
+            if (anyCached) return anyCached;
+            return new Response("<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><title>Offline</title></head><body><p>You are offline. Rudrabha Mukherjee's Design Helper is ready when you reconnect.</p></body></html>", {
+              status: 200,
+              headers: { "Content-Type": "text/html; charset=utf-8" }
+            });
+          });
+        });
       }).catch(function () {
-        return caches.match("/");
+        return caches.match("/").then(function (anyCached) {
+          if (anyCached) return anyCached;
+          return fetch(req);
+        });
       })
     );
     return;

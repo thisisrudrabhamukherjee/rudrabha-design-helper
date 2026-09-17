@@ -12,13 +12,13 @@ You can install the app from the browser so it sits with your other apps. See [d
 
 The application is one HTML file. Anybody can save their own permanent copy from inside the app; that copy then works offline for good. To confirm a download is unmodified, check it against the published SHA-256 fingerprint. See [docs/VERIFYING-A-COPY.md](docs/VERIFYING-A-COPY.md).
 
-Published fingerprint for version 3.11.0:
+Published fingerprint for version 3.12.0:
 
 ```
-f4dfb62120d5f0ad74f0f0d2fb7a588a9c57c26db3ba4832e4519632dc911896
+94377fe4ae4b8929312f0306a41a99f20174842aa6d0123c9061e029ddc27cde
 ```
 
-A versioned copy lives at [`releases/Rudrabha-Mukherjee-Design-Helper_v3.11.0.html`](releases/Rudrabha-Mukherjee-Design-Helper_v3.11.0.html). The complete source package for the earlier 3.9.0 release remains at [`docs/COMPLETE-SOURCE-v3.9.0.txt`](docs/COMPLETE-SOURCE-v3.9.0.txt).
+A versioned copy lives at [`releases/Rudrabha-Mukherjee-Design-Helper_v3.12.0.html`](releases/Rudrabha-Mukherjee-Design-Helper_v3.12.0.html). The complete source package for the earlier 3.9.0 release remains at [`docs/COMPLETE-SOURCE-v3.9.0.txt`](docs/COMPLETE-SOURCE-v3.9.0.txt).
 
 ## What it does
 

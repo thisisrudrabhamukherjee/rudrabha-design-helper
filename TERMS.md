@@ -1,14 +1,14 @@
 # Terms of use
 
 The authoritative copy of these terms is the one inside the application
-(**Rudrabha Mukherjee's Design Helper**, version **3.11.0**). This file is provided so the
+(**Rudrabha Mukherjee's Design Helper**, version **3.12.0**). This file is provided so the
 terms can be read on GitHub without opening the app.
 
 ---
 
 TERMS OF USE
 
-App: Rudrabha Mukherjee's Design Helper, version 3.11.0
+App: Rudrabha Mukherjee's Design Helper, version 3.12.0
 Created by Rudrabha Mukherjee
 Licence: BSD 3-Clause Licence
 
