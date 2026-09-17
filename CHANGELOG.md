@@ -6,6 +6,12 @@ Taken from the application's own "What has changed" screen.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project follows [Semantic Versioning](https://semver.org/).
 
+## [3.10.1] — 17 September 2026
+
+### Fixed
+
+- The Updates screen in Settings opened and then snapped back to Home. It now stays open.
+
 ## [3.10.0] — 17 September 2026
 
 ### Added
