@@ -6,6 +6,17 @@ Taken from the application's own "What has changed" screen.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project follows [Semantic Versioning](https://semver.org/).
 
+## [3.10.3] — 17 September 2026
+
+### Fixed
+
+- Installing the app did not actually work in the last version. The part that keeps a copy on your device could not save its files, so the app could not be installed properly, could not open without the internet, and could not tell you when a new version was ready. It works now.
+
+### Changed
+
+- New icons, drawn to stay clear at the small size a phone actually shows them.
+- The Updates screen now tells you plainly whether you have the newest version, when it last checked, and offers the new version when there is one.
+
 ## [3.10.2] — 17 September 2026
 
 ### Fixed

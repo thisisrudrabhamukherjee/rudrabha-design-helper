@@ -1,8 +1,7 @@
 /* Service worker for this application. Cache name carries the version. */
-var CACHE = "rmdh-3.10.2";
+var CACHE = "rmdh-3.10.3";
 var PRECACHE = [
   "/",
-  "/index.html",
   "/manifest.webmanifest",
   "/icons/icon-192.png",
   "/icons/icon-512.png",
@@ -39,10 +38,10 @@ self.addEventListener("fetch", function (event) {
 
   if (req.mode === "navigate") {
     event.respondWith(
-      caches.match("/index.html").then(function (cached) {
+      caches.match("/").then(function (cached) {
         return cached || fetch(req);
       }).catch(function () {
-        return caches.match("/index.html");
+        return caches.match("/");
       })
     );
     return;

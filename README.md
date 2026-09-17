@@ -12,21 +12,21 @@ You can install the app from the browser so it sits with your other apps. See [d
 
 The application is one HTML file. Anybody can save their own permanent copy from inside the app; that copy then works offline for good. To confirm a download is unmodified, check it against the published SHA-256 fingerprint. See [docs/VERIFYING-A-COPY.md](docs/VERIFYING-A-COPY.md).
 
-Published fingerprint for version 3.10.2:
+Published fingerprint for version 3.10.3:
 
 ```
-140996e231260a0b8e2ca30e9cff4a3e6ea08acfaaf4363c79d68306177c3615
+bc05ea51f5b58f8576724ba7154917d6b4157640b7f38e7c25a584a284b3106a
 ```
 
-A versioned copy lives at [`releases/Rudrabha-Mukherjee-Design-Helper_v3.10.2.html`](releases/Rudrabha-Mukherjee-Design-Helper_v3.10.2.html). The complete source package for the earlier 3.9.0 release remains at [`docs/COMPLETE-SOURCE-v3.9.0.txt`](docs/COMPLETE-SOURCE-v3.9.0.txt).
+A versioned copy lives at [`releases/Rudrabha-Mukherjee-Design-Helper_v3.10.3.html`](releases/Rudrabha-Mukherjee-Design-Helper_v3.10.3.html). The complete source package for the earlier 3.9.0 release remains at [`docs/COMPLETE-SOURCE-v3.9.0.txt`](docs/COMPLETE-SOURCE-v3.9.0.txt).
 
 ## What it does
 
 - Guides you through six steps to describe what you are making and produce a brief for an AI assistant
-- One self-contained HTML file — no libraries, frameworks, web fonts or third-party code — so a saved copy keeps working when you have no internet
+- One self-contained HTML file â€” no libraries, frameworks, web fonts or third-party code â€” so a saved copy keeps working when you have no internet
 - Your work is kept in the browser's `localStorage` on your own device; nothing is uploaded; no accounts, cookies, analytics or tracking
 - Hosted copies may check their own address for a newer version on launch; you can switch that off in Settings. None of your work is part of that request. A file opened from disk never checks.
-- Optional lock: AES-GCM-256 encryption of the saved record, with the key wrapped separately by a PIN (PBKDF2-SHA256, 250,000 iterations) and by the answer to one recovery question (PBKDF2-SHA256, 1,200,000 iterations); answers are never stored. The recovery question is deliberately the weakest way in — somebody who knows you may be able to open your work
+- Optional lock: AES-GCM-256 encryption of the saved record, with the key wrapped separately by a PIN (PBKDF2-SHA256, 250,000 iterations) and by the answer to one recovery question (PBKDF2-SHA256, 1,200,000 iterations); answers are never stored. The recovery question is deliberately the weakest way in â€” somebody who knows you may be able to open your work
 - Accessibility: minimum 44 px tap targets, 18 px base text, adjustable text size, light and dark themes, no horizontal scrolling from 320 px to 1920 px, no WCAG AA contrast failures
 - British English throughout
 
