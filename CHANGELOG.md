@@ -6,6 +6,12 @@ Taken from the application's own "What has changed" screen.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project follows [Semantic Versioning](https://semver.org/).
 
+## [3.10.2] — 17 September 2026
+
+### Fixed
+
+- When the lock was on, the foot of the screen still showed an old version number. It now shows the version you are using.
+
 ## [3.10.1] — 17 September 2026
 
 ### Fixed
