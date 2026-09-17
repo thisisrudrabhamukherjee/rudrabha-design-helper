@@ -1,0 +1,42 @@
+name: Bug report
+description: Report a defect in Rudrabha Mukherjee's Design Helper
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a defect. For security faults, use [private vulnerability reporting](https://github.com/thisisrudrabhamukherjee/rudrabha-design-helper/security/advisories/new) instead.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The version shown in the app (for example 3.9.0), or the commit.
+      placeholder: "3.9.0"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The shortest steps that show the fault.
+    validations:
+      required: true
+  - type: dropdown
+    id: sibling
+    attributes:
+      label: Did you check the sibling application?
+      description: Rudrabha Mukherjee's Build Checklist often shares the same fault.
+      options:
+        - "Yes — not present there"
+        - "Yes — present there too (please link the issue)"
+        - "Not yet"
+        - "Not applicable"
+    validations:
+      required: true

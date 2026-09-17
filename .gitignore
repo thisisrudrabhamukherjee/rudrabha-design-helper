@@ -1,0 +1,17 @@
+.cursor/
+.claude/
+.codex/
+.amp/
+.aider*
+AGENTS.md
+CLAUDE.md
+.cursorrules
+.github/copilot-instructions.md
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+node_modules/
+.wrangler/
+dist/

@@ -1,0 +1,26 @@
+NOTICE
+
+Rudrabha Mukherjee's Design Helper
+Copyright (c) 2026, Rudrabha Mukherjee
+Licence: BSD 3-Clause
+Created by Rudrabha Mukherjee
+
+THIRD-PARTY CODE: NONE
+
+This application contains no third-party code. There are no libraries, frameworks, web fonts, icon sets, images or code from anyone else. There are therefore no other licences to obey and no other notices to carry.
+
+FONTS
+
+The app ships no font files and loads none. It names families in CSS (ui-sans-serif, -apple-system, Segoe UI, Roboto, Noto Sans, Helvetica Neue, Arial, and monospace equivalents) so the browser uses a font already installed on the reader's own device. Naming a family is not distribution, so no font licence applies.
+
+WHAT THE LICENCE REQUIRES WHEN REDISTRIBUTING
+
+If you redistribute this software, in source form or in built form, keep the copyright notice, the conditions of the licence, and the disclaimer with it.
+
+WHAT THE LICENCE DOES NOT REQUIRE
+
+Documents a reader produces with the app are their own work. They are not covered by this licence and need carry no notice.
+
+NON-ENDORSEMENT
+
+Rudrabha Mukherjee does not back, approve or support any person, business or product that uses or builds on this work. Using it, or giving credit for it, does not mean Rudrabha Mukherjee is connected to that work in any way. The licence does not grant the right to use the name Rudrabha Mukherjee, or the name of this product, to advertise or promote another version or product, or in a way that suggests approval.
