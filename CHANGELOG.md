@@ -6,6 +6,15 @@ Taken from the application's own "What has changed" screen.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project follows [Semantic Versioning](https://semver.org/).
 
+## [3.15.0] — 18 September 2026
+
+### Changed
+
+- Full visual alignment with the Ghost Brand Book aesthetic: Editorial Minimalism, Monochrome Precision, and Typographic Authority.
+- Updated brand color palette to pure Obsidian Black (`#15171A`), Pure White (`#FFFFFF`), and signature Dijon Yellow (`#F2C94C`) accents across light and dark themes.
+- Modernized typography stack to `Inter Display` for commanding headlines and `Inter Variable` for clean, readable body prose.
+- Redesigned action buttons, check states, step indicators, and progress badges with high-contrast Dijon Yellow and Obsidian Black styling.
+
 ## [3.14.0] — 18 September 2026
 
 ### Changed
