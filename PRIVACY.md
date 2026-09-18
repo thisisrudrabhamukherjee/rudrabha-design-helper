@@ -1,12 +1,12 @@
 # Privacy notice
 
-The authoritative copy of this notice is the one inside the application (version 3.13.0). This file reproduces it so it can be read on GitHub without opening the app.
+The authoritative copy of this notice is the one inside the application (version 3.14.0). This file reproduces it so it can be read on GitHub without opening the app.
 
 ---
 
 PRIVACY NOTICE
 
-App: Rudrabha Mukherjee's Design Helper, version 3.13.0
+App: Rudrabha Mukherjee's Design Helper, version 3.14.0
 Created by Rudrabha Mukherjee
 
 SHORT VERSION
@@ -62,8 +62,8 @@ private.
 
 LOCK
 If you turn on the lock, your work is scrambled on this device using a key
-made from your password. Nobody, including the maker of this app, can
-unscramble it without that password.
+made from your PIN. Nobody, including the maker of this app, can
+unscramble it without your PIN (or your recovery answer, if you chose to set one).
 
 CHILDREN
 This app collects nothing, so it collects nothing about children either.

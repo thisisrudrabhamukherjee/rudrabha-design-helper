@@ -6,6 +6,16 @@ Taken from the application's own "What has changed" screen.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project follows [Semantic Versioning](https://semver.org/).
 
+## [3.14.0] — 18 September 2026
+
+### Changed
+
+- The recovery question on the lock screen is now optional. You can choose to rely on your PIN alone for stronger security, or set a question as a safety net.
+
+### Added
+
+- Support for PIN-only locks, with the ability to add, change, or remove a recovery question at any time while locked.
+
 ## [3.13.0] — 18 September 2026
 
 ### Changed

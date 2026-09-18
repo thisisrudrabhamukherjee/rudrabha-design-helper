@@ -12,13 +12,13 @@ You can install the app from the browser so it sits with your other apps. See [d
 
 The application is one HTML file. Anybody can save their own permanent copy from inside the app; that copy then works offline for good. To confirm a download is unmodified, check it against the published SHA-256 fingerprint. See [docs/VERIFYING-A-COPY.md](docs/VERIFYING-A-COPY.md).
 
-Published fingerprint for version 3.13.0:
+Published fingerprint for version 3.14.0:
 
 ```
-80b6854a70ff3204c886baa9445954a5458a9948ffd27d2ebdad2c232ada02e5
+ba0520f9b92731185dc7cf3f36ea1c710b23fe0c2c36bd97df2c16f02858e75c
 ```
 
-A versioned copy lives at [`releases/Rudrabha-Mukherjee-Design-Helper_v3.13.0.html`](releases/Rudrabha-Mukherjee-Design-Helper_v3.13.0.html). The complete source package for the earlier 3.9.0 release remains at [`docs/COMPLETE-SOURCE-v3.9.0.txt`](docs/COMPLETE-SOURCE-v3.9.0.txt).
+A versioned copy lives at [`releases/Rudrabha-Mukherjee-Design-Helper_v3.14.0.html`](releases/Rudrabha-Mukherjee-Design-Helper_v3.14.0.html). The complete source package for the earlier 3.9.0 release remains at [`docs/COMPLETE-SOURCE-v3.9.0.txt`](docs/COMPLETE-SOURCE-v3.9.0.txt).
 
 ## What it does
 
@@ -26,7 +26,7 @@ A versioned copy lives at [`releases/Rudrabha-Mukherjee-Design-Helper_v3.13.0.ht
 - One self-contained HTML file â€” no libraries, frameworks, web fonts or third-party code â€” so a saved copy keeps working when you have no internet
 - Your work is kept in the browser's `localStorage` on your own device; nothing is uploaded; no accounts, cookies, analytics or tracking
 - Hosted copies may check their own address for a newer version on launch; you can switch that off in Settings. None of your work is part of that request. A file opened from disk never checks.
-- Optional lock: AES-GCM-256 encryption of the saved record, with the key wrapped separately by a PIN (PBKDF2-SHA256, 250,000 iterations) and by the answer to one recovery question (PBKDF2-SHA256, 1,200,000 iterations); answers are never stored. The recovery question is deliberately the weakest way in â€” somebody who knows you may be able to open your work
+- Optional lock: AES-GCM-256 encryption of the saved record, with the key wrapped by a PIN (PBKDF2-SHA256, 250,000 iterations) and optionally by the answer to one recovery question (PBKDF2-SHA256, 1,200,000 iterations); answers are never stored. Setting a recovery question is optional: you can choose to rely on your PIN alone for maximum secrecy, or add a question as a safety net.
 - Accessibility: minimum 44 px tap targets, 18 px base text, adjustable text size, light and dark themes, no horizontal scrolling from 320 px to 1920 px, no WCAG AA contrast failures
 - British English throughout
 

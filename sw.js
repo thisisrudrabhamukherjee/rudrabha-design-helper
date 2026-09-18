@@ -1,5 +1,5 @@
 /* Service worker for this application. Cache name carries the version. */
-var CACHE = "rmdh-3.13.0";
+var CACHE = "rmdh-3.14.0";
 var PRECACHE = [
   "/",
   "/manifest.webmanifest",

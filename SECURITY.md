@@ -38,7 +38,7 @@ At minimum:
 
 ## Out of scope — documented design properties, not vulnerabilities
 
-- **The recovery question is deliberately the weakest way in.** One question, answered by one person. Somebody who knows the reader well, or who can find the answer, may be able to open their work exactly as if they knew the PIN. The app says so on screen before the lock is switched on. This is a chosen trade-off for people who would lose a printed recovery code, not a defect.
+- **The recovery question is optional, but is deliberately the weakest way in if enabled.** When set, somebody who knows the reader well, or who can find the answer, may be able to open their work exactly as if they knew the PIN. Setting a question is completely optional: users who want maximum security can rely strictly on their PIN alone without setting a recovery question. The app says so on screen before the lock is switched on. This is a chosen trade-off for people who would lose a PIN without a safety net, not a defect.
 - A PIN or answer that the reader chose to be guessable
 - Physical access to an unlocked device
 - Work that the reader exported to a file while the lock was off — that file is deliberately readable, and the app warns about it
