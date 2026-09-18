@@ -6,6 +6,14 @@ Taken from the application's own "What has changed" screen.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project follows [Semantic Versioning](https://semver.org/).
 
+## [3.13.0] — 18 September 2026
+
+### Changed
+
+- Editorial minimalism and typographic authority: updated the interface typography stack anchored by the clean Inter font family and tracked uppercase section headers.
+- Refined monochrome precision palette: implemented a pure Obsidian Black (`#15171A`), crisp Pure White (`#FFFFFF`), and Dijon Yellow (`#F2C94C`) mark accent palette with verified WCAG contrast compliance across all themes.
+- Streamlined card outlines, 1px crisp dividers, and subtle elevation across all views and viewports.
+
 ## [3.12.0] — 18 September 2026
 
 ### Fixed

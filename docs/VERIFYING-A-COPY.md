@@ -2,11 +2,11 @@
 
 These instructions confirm that a copy of Rudrabha Mukherjee's Design Helper is unmodified.
 
-## Published fingerprint (version 3.12.0)
+## Published fingerprint (version 3.13.0)
 
 | File | Bytes | SHA-256 |
 |---|---|---|
-| `Rudrabha-Mukherjee-Design-Helper_v3.12.0.html` | 275318 | `94377fe4ae4b8929312f0306a41a99f20174842aa6d0123c9061e029ddc27cde` |
+| `Rudrabha-Mukherjee-Design-Helper_v3.13.0.html` | 276053 | `80b6854a70ff3204c886baa9445954a5458a9948ffd27d2ebdad2c232ada02e5` |
 
 The same bytes are served as `index.html` at the repository root and at the live address.
 
@@ -17,13 +17,13 @@ The fingerprint verifies the HTML file. An installed copy is held by the browser
 Linux or macOS:
 
 ```bash
-shasum -a 256 Rudrabha-Mukherjee-Design-Helper_v3.12.0.html
+shasum -a 256 Rudrabha-Mukherjee-Design-Helper_v3.13.0.html
 ```
 
 Windows PowerShell:
 
 ```powershell
-Get-FileHash Rudrabha-Mukherjee-Design-Helper_v3.12.0.html -Algorithm SHA256
+Get-FileHash Rudrabha-Mukherjee-Design-Helper_v3.13.0.html -Algorithm SHA256
 ```
 
 The output must match the hash above exactly. The file must end with a single newline character.
